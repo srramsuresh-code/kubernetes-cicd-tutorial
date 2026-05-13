@@ -18,7 +18,7 @@ app.post('/grades', (req, res) => {
   const id = Date.now().toString();
   const newGrade = { id, name, subject, score };
   grades.push(newGrade);
-  console.log('Received POST request, added new grade:', newGrade);
+  console.log('Received POST request, added new grade: This changes to activate runner & test', newGrade);
   res.json(newGrade);
 });
 
