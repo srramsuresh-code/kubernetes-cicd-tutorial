@@ -48,3 +48,6 @@ jobs:
           git add deployment.yaml
           git commit -m "Update image to ${{ github.sha }}"          
           git push -f "https://$($env:GIT_TOKEN)@github.com/srramsuresh-code/grade-api-gitops.git" HEAD:main
+
+
+      ## Modified deployment.yaml with correct repository name 
